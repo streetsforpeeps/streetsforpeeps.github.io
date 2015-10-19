@@ -17,7 +17,7 @@ body {
 
 #header {
 		height: 15%;
-		width: 50%;
+		width: 550px;
 		position: initial;
 		padding-bottom: 5px;
 		text-align: center;
@@ -30,7 +30,7 @@ body {
 }
 
 #content {
-		width: 50%;
+		width: 75%;
 		position: initial;
 		padding-bottom: 5px;
 		padding-left: 20px;
