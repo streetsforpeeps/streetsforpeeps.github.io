@@ -1,41 +1,50 @@
-*{
-  font-family:Arial;
+
+* {
+		/*border: 1px dashed black;*/
 }
 
-#tiny{
-  font-size:12px;
+html {
+		height: 100%;
+		width: 100%;
 }
 
-h1{
-  font-size:46px;
-}
-
-html{
-  height:100%;
-  width:100%;
-}
 body {
-  height:100%;
-  background-image:url("granola.jpg");
-  background-repeat:no-repeat;
-  //background-position:0px 10px;
-   background-size:2000px;
+		background-image: url("http://goo.gl/fhjcj2");
+		background-repeat: no-repeat;
+		background-size: 1500px;
+		height: 100%;
 }
 
-#main{
-  //height:850px;
-  width:500px;
-  display:block;
-  margin-top:20px;
-  margin-left:auto;
-  margin-right:auto;
-  border-radius:10px;
-  background-color:#DCAA79;
-  padding:10px 15px 10px;
+#header {
+		height: 15%;
+		width: 550px;
+		position: initial;
+		padding-bottom: 5px;
+		text-align: center;
+		font-family: Impact, Charcoal, sans-serif;
+		font-size: 35px;
+		background-color: white;
+		border-radius: 30px;
+		margin-left: auto;
+		margin-right: auto;
 }
-#title{
-  //border:1px solid red;
-  text-align:center;
-  display:block;
-  margin-bottom:50px;
+
+#content {
+		width: 75%;
+		position: initial;
+		padding-bottom: 5px;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: left;
+		font-family: Courier New, Charcoal, sans-serif;
+		font-size: 15px;
+		background-color: white;
+		border-radius: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+}
+
+h2 {
+		text-align: center;
 }
